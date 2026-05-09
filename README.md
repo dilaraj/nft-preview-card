@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Code](https://github.com/dilaraj/nft-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click to Preview](https://dilaraj.github.io/nft-preview-card/)
 
 ## My process
 
