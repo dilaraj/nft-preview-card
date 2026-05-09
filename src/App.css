@@ -54,6 +54,7 @@
 .eth-date {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5em;
   font-size: 1rem;
 }
@@ -67,6 +68,11 @@
 .eth-date {
   color: hsl(215, 51%, 70%);
   font-size: 300;
+}
+
+.eth-icon {
+  width: 1em;
+  height: 1em;
 }
 
 .line {

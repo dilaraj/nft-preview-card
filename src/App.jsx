@@ -16,11 +16,11 @@ function App() {
         <div className="nft-description">Our Equilibrium collection promotes balance and calm.</div>
         <div className="eth-info">
           <div className="eth-price">
-            <img src={ETHIcon} alt="eth icon"/>
+            <img src={ETHIcon} alt="eth icon" className='eth-icon'/>
             <span>0.041 ETH</span>
           </div>
           <div className="eth-date">
-            <img src={ClockIcon} alt="Clock Icon" />
+            <img src={ClockIcon} alt="Clock Icon" className='eth-icon'/>
             <span>3 days left</span>
           </div>
         </div>
