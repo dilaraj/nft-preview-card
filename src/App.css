@@ -1,0 +1,107 @@
+.main-component-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 25em;
+  height: 39em;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nft-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+.nft-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.nft-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0 1.5em 1.5em;
+}
+
+.nft-name {
+  font-family: Outfit;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nft-description {
+  font-family: Outfit;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.eth-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: Outfit;
+}
+
+.eth-price,
+.eth-date {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  font-size: 1rem;
+}
+
+.eth-price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+
+}
+
+.eth-date {
+  color: hsl(215, 51%, 70%);
+  font-size: 300;
+}
+
+.line {
+  width: 100%;
+  border: 0.75px solid;
+  border-color: hsl(215, 32%, 27%);
+}
+
+.nft-creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  font-family: Outfit;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.nft-creator span {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.creator-avatar {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-icon {
+  width: 98%;
+  height: 98%;
+}
